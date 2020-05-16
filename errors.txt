@@ -1,4 +1,5 @@
 Dichiarazione di Map e Fold
 
 Map (MapFunctor, void*);
-Fold (FoldFunctor, const void*, void*) const noexcept;  -> Richiama solo funzioni con specifier Const
+Fold (FoldFunctor, const void*, void*) const noexcept;  -> Richiama solo funzioni con specifier Const -> EX: Element() const
+
